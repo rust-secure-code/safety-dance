@@ -22,16 +22,16 @@ Our process is as follows:
 3) When problems are found with an `unsafe` block we want to file bug reports in
    that crate's repo, send PRs with fixes if possible, and also write up
    [security advisories](https://github.com/RustSec/advisory-db) if necessary.
-  * It might be the case that `unsafe` can't be eliminated without a performance
+  * If the `unsafe` block is sound, but can be converted to safe code without
+    losing performance, that's a great thing to do! This is often the case
+    thanks to Rust adding new safe abstractions and improving the optimizer
+    since the code was originally written.
+  * It's possible that `unsafe` can't be eliminated without a performance
     loss. Unfortunate, but it will happen some of the time. Note that benchmarks
     _must_ actually be used to back up any performance loss claims. There are
     already many cases where switching from `unsafe` to safe alternateives has
     _increased_ performance, so simply guessing that performance will regress
     is not enough.
-  * If the `unsafe` block is sound, but can be converted to safe code without
-    losing performance, that's a great thing to do! This is often the case
-    thanks to Rust adding new safe abstractions and improving the optimizer
-    since the code was originally written.
   * If switching away from unsafe is impossible because of missing abstractions
     then that's important to know! We can work on improving the language, the
     standard library, and/or the crates.io ecosystem until the necessary gaps
