@@ -22,10 +22,10 @@ Our process is as follows:
 3) When problems are found with an `unsafe` block we want to file bug reports in
    that crate's repo, send PRs with fixes if possible, and also write up
    [security advisories](https://github.com/RustSec/advisory-db) if necessary.
-  * It might be the case that unsafe can't be eliminated without a performance
+  * It might be the case that `unsafe` can't be eliminated without a performance
     loss. Unfortunate, but it will happen some of the time. Note that benchmarks
     _must_ actually be used to back up any performance loss claims. There are
-    already many cases where switching from unsafe to safe alternateives has
+    already many cases where switching from `unsafe` to safe alternateives has
     _increased_ performance, so simply guessing that performance will regress
     is not enough.
   * If switching away from unsafe is impossible because of missing abstractions
