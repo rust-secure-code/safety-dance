@@ -28,6 +28,10 @@ Our process is as follows:
     already many cases where switching from `unsafe` to safe alternateives has
     _increased_ performance, so simply guessing that performance will regress
     is not enough.
+  * If the `unsafe` block is sound, but can be converted to safe code without
+    losing performance, that's a great thing to do! This is often the case
+    thanks to Rust adding new safe abstractions and improving the optimizer
+    since the code was originally written.
   * If switching away from unsafe is impossible because of missing abstractions
     then that's important to know! We can work on improving the language, the
     standard library, and/or the crates.io ecosystem until the necessary gaps
