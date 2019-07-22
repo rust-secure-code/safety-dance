@@ -21,7 +21,7 @@ Our process is as follows:
     tracking issue here and someone else can have a look too.
 3) When problems are found with an `unsafe` block we want to file bug reports in
    that crate's repo, send PRs with fixes if possible, and also write up
-   security advisories if necessary.
+   [security advisories](https://github.com/RustSec/advisory-db) if necessary.
 4) Once a crate has been gone over enough we close that issue. If the crate
    needs re-checking again later on we just open a new issue.
 
