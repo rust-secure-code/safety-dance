@@ -11,8 +11,10 @@ Our process is as follows:
 1) File a tracking issue _in this repo_ about a particular crate, giving its
    name and a link to their github (or other repository location).
 2) Audit `unsafe` usage in that crate.
-  * This is easy to start! You can use a github repo search for the `unsafe`
-    keyword or clone the repo and use your own editor's search.
+  * This is easy to start! Note that the GitHub search isn't very good, so it's
+    best to clone the project and use an editor on your own computer. The
+    [cargo geiger](https://github.com/anderejd/cargo-geiger) command can also
+    help here.
   * Once you know where the `unsafe` blocks are it gets harder: you have to
     carefully determine if the `unsafe` is being used appropriately. If you
     don't know that's okay, post the questionable block in a comment in the
