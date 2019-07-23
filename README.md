@@ -6,6 +6,16 @@
 
 This is a place for people to communicate about `unsafe` code in Rust crates.
 
+**Everyone is invited to participate!**
+
+You **do not** have to be an `unsafe` expert to help out. There's a lot of work
+to do just picking crates (ones with a lot of reverse-dependencies are best),
+and then sorting out where they use `unsafe` and why. If you think something
+isn't right just post it in the tracking issue and others can have a look and
+talk it out.
+
+## Process
+
 Our process is as follows:
 
 1) File a tracking issue _in this repo_ about a particular crate, giving its
@@ -38,11 +48,13 @@ Our process is as follows:
     are filled in.
 4) Once a crate has been gone over enough we close that issue. If the crate
    needs re-checking again later on we just open a new issue.
+5) (Optional) If you have completely cleansed a crate of `unsafe`, add a
+   `#![forbid(unsafe_code)]` attribute to its `src/lib.rs` or `main.rs`.
+   After doing that, help others discover Safety Dance by adding a badge to
+   your README.md: ![Safety Dance](https://img.shields.io/badge/unsafe-forbidden-success.svg)
 
-**Everyone is invited to participate!**
+Markdown code:
 
-You **do not** have to be an `unsafe` expert to help out. There's a lot of work
-to do just picking crates (ones with a lot of reverse-dependencies are best),
-and then sorting out where they use `unsafe` and why. If you think something
-isn't right just post it in the tracking issue and others can have a look and
-talk it out.
+```
+[![Safety Dance](https://img.shields.io/badge/unsafe-forbidden-success.svg)](https://github.com/rust-secure-code/safety-dance/)
+```
