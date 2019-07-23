@@ -49,9 +49,10 @@ Our process is as follows:
 4) Once a crate has been gone over enough we close that issue. If the crate
    needs re-checking again later on we just open a new issue.
 5) (Optional) If you have completely cleansed a crate of `unsafe`, add a
-   `#![forbid(unsafe_code)]` attribute to its `src/lib.rs` or `main.rs`
-   and/or an ![Safety Dance](https://img.shields.io/badge/unsafe-forbidden-success.svg)
-   badge to its README.md. Markdown:
+   `#![forbid(unsafe_code)]` attribute to its `src/lib.rs` or `main.rs`.
+   After doing that, help others discover Safety Dance by adding a badge to
+   your README.md: ![Safety Dance](https://img.shields.io/badge/unsafe-forbidden-success.svg)
+   Markdown:
 
 ```
 [![Safety Dance](https://img.shields.io/badge/unsafe-forbidden-success.svg)](https://github.com/rust-secure-code/safety-dance/)
