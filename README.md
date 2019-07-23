@@ -52,7 +52,8 @@ Our process is as follows:
    `#![forbid(unsafe_code)]` attribute to its `src/lib.rs` or `main.rs`.
    After doing that, help others discover Safety Dance by adding a badge to
    your README.md: ![Safety Dance](https://img.shields.io/badge/unsafe-forbidden-success.svg)
-   Markdown:
+
+Markdown code:
 
 ```
 [![Safety Dance](https://img.shields.io/badge/unsafe-forbidden-success.svg)](https://github.com/rust-secure-code/safety-dance/)
