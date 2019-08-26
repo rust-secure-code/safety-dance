@@ -39,7 +39,7 @@ Our process is as follows:
   * It's possible that `unsafe` can't be eliminated without a performance
     loss. Unfortunate, but it will happen some of the time. Note that benchmarks
     _must_ actually be used to back up any performance loss claims. There are
-    already many cases where switching from `unsafe` to safe alternateives has
+    already many cases where switching from `unsafe` to safe alternatives has
     _increased_ performance, so simply guessing that performance will regress
     is not enough.
   * If switching away from unsafe is impossible because of missing abstractions
