@@ -68,7 +68,7 @@ Check out the safety improvements already done!
 
 Popular DEFLATE compression/decompression library ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/1))
 
-- Unsafe blocks before: **16**
+- Unsafe blocks before: **16** (4 of them unsound)
 - Unsafe blocks after: **1** plus 2 more moved to shared crates
 - **Security bug fixed: [RUSTSEC-2019-0010](https://rustsec.org/advisories/RUSTSEC-2019-0010.html)**
 
@@ -80,7 +80,7 @@ Done by: [DevQps](https://github.com/DevQps), [Shnatsel](https://github.com/Shna
 
 The fastest DEFLATE compression/decompression library in Rust, backend for [flate2](https://crates.io/crates/flate2) ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/2))
 
-- Unsafe blocks before: **28**
+- Unsafe blocks before: **28** (2 of them unsound)
 - **100% safe code now** - while being faster than the C version!
 - Potential security issue fixed: [Frommi/miniz_oxide#36](https://github.com/Frommi/miniz_oxide/pull/36) (unclear if exploitable or not)
 
