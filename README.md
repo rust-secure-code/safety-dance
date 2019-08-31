@@ -58,3 +58,29 @@ Markdown code:
 ```
 [![Safety Dance](https://img.shields.io/badge/unsafe-forbidden-success.svg)](https://github.com/rust-secure-code/safety-dance/)
 ```
+
+## 🏆 Trophy Case 🏆
+
+Check out the safety improvements already done!
+
+### [libflate](https://crates.io/crates/libflate)
+
+Popular DEFLATE compression/decompression library ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/1))
+
+- Unsafe blocks before: **16**
+- Unsafe blocks after: **1** plus 2 more moved to shared crates
+- **Security bug fixed: [RUSTSEC-2019-0010](https://rustsec.org/advisories/RUSTSEC-2019-0010.html)**
+
+100% safety blockers: [rust-lang/rust#59229](https://github.com/rust-lang/rust/issues/59229), [rust-lang/rfcs#2714](https://github.com/rust-lang/rfcs/pull/2714)
+
+Done by: [DevQps](https://github.com/DevQps), [Shnatsel](https://github.com/Shnatsel/), [WanzenBug](https://github.com/WanzenBug/)
+
+### [miniz_oxide](https://crates.io/crates/miniz_oxide)
+
+The fastest DEFLATE compression/decompression library in Rust, backend for [flate2](https://crates.io/crates/flate2) ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/2))
+
+- Unsafe blocks before: **28**
+- **100% safe code now** - while being faster than the C version!
+- Potential security issue fixed: [Frommi/miniz_oxide#36](https://github.com/Frommi/miniz_oxide/pull/36) (unclear if exploitable or not)
+
+Done by: [Shnatsel](https://github.com/Shnatsel/), [oyvindln](https://github.com/oyvindln/)
