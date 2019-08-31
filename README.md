@@ -64,6 +64,18 @@ Markdown code:
 
 Check out the safety improvements already done!
 
+### [image](https://crates.io/crates/image)
+
+Image operations and conversions to/from image formats ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/3))
+
+- Unsafe blocks before: **9** (1 of them unsound)
+- Unsafe blocks after: **6**
+- **Security bug fixed:** TODO: wait for https://github.com/RustSec/advisory-db/pull/135 to get RUSTSEC ID assigned
+
+The remaining unsafe blocks are inherent and cannot be removed. They have been audited and found to be sound.
+
+Done by: [HeroicKatora](https://github.com/HeroicKatora), [64](https://github.com/64)
+
 ### [libflate](https://crates.io/crates/libflate)
 
 Popular DEFLATE compression/decompression library ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/1))
