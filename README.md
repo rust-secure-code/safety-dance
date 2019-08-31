@@ -68,7 +68,7 @@ Check out the safety improvements already done!
 
 Image operations and conversions to/from image formats ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/3))
 
-- Unsafe blocks before: **9** (1 of them unsound)
+- Unsafe blocks before: **8** (1 of them unsound)
 - Unsafe blocks after: **6**
 - **Security bug fixed:** TODO: wait for https://github.com/RustSec/advisory-db/pull/135 to get RUSTSEC ID assigned
 
