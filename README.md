@@ -67,7 +67,7 @@ Check out the safety improvements already done!
 
 ### [gif](https://crates.io/crates/gif)
 
-GIF image decoder in pure Rust ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/24))
+GIF image encoder/decoder written in Rust ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/24))
 
  - Unsafe blocks before: **6** (ignoring C API)
  - Unsafe blocks after: **2** (ignoring C API)
