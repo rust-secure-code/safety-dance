@@ -4,7 +4,8 @@
 
 ## About
 
-This is a place for people to communicate about `unsafe` code in Rust crates.
+This is a place for people to communicate about auditing `unsafe` code in core
+Rust crates and replacing it with safe code where feasible.
 
 **Everyone is invited to participate!**
 
@@ -63,6 +64,17 @@ Markdown code:
 ## 🏆 Trophy Case 🏆
 
 Check out the safety improvements already done!
+
+### [gif](https://crates.io/crates/gif)
+
+GIF image decoder in pure Rust ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/24))
+
+ - Unsafe blocks before: **6** (ignoring C API)
+ - Unsafe blocks after: **2** (ignoring C API)
+
+100% safety blocked by [Polonius integration in rustc](https://github.com/rust-lang/rust/issues/51545)
+
+Done by: [Shnatsel](https://github.com/Shnatsel/)
 
 ### [image](https://crates.io/crates/image)
 
