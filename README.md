@@ -4,7 +4,8 @@
 
 ## About
 
-This is a place for people to communicate about `unsafe` code in Rust crates.
+This is a place for people to communicate about auditing `unsafe` code in core
+Rust crates and replacing it with safe code where feasible.
 
 **Everyone is invited to participate!**
 
