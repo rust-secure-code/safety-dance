@@ -70,7 +70,7 @@ Image operations and conversions to/from image formats ([tracking issue](https:/
 
 - Unsafe blocks before: **8** (1 of them unsound)
 - Unsafe blocks after: **6**
-- **Security bug fixed:** TODO: wait for https://github.com/RustSec/advisory-db/pull/135 to get RUSTSEC ID assigned
+- **Security bug fixed: [RUSTSEC-2019-0014](https://rustsec.org/advisories/RUSTSEC-2019-0014.html)**
 
 The remaining unsafe blocks are inherent and cannot be removed. They have been audited and found to be sound.
 
