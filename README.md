@@ -114,7 +114,9 @@ Done by: [Shnatsel](https://github.com/Shnatsel/), [oyvindln](https://github.com
 
 A spinlock for Rust ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/18))
 
-- `RwLock` found to be unsound,completely rewritten based on Facebook's [Folly](https://github.com/facebook/folly) implementation, new implementation audited for soundness
+- `spin::RwLock` found to be unsound,completely rewritten based on Facebook's [Folly](https://github.com/facebook/folly) implementation, new implementation audited for soundness
 - **Security bug fixed: [RUSTSEC-2019-0013](https://rustsec.org/advisories/RUSTSEC-2019-0013.html)**
 
 Done by: [64](https://github.com/64), [xacrimon](https://github.com/xacrimon)
+
+`spin::Once` still needs to be audited for soundness, see [tracking issue](https://github.com/rust-secure-code/safety-dance/issues/18)
