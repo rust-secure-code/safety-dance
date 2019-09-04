@@ -109,3 +109,12 @@ The fastest DEFLATE compression/decompression library in Rust, backend for [flat
 - Potential security issue fixed: [Frommi/miniz_oxide#36](https://github.com/Frommi/miniz_oxide/pull/36) (unclear if exploitable or not)
 
 Done by: [Shnatsel](https://github.com/Shnatsel/), [oyvindln](https://github.com/oyvindln/)
+
+### [spin](https://crates.io/crates/spin)
+
+A spinlock for Rust ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/18))
+
+- `RwLock` found to be unsound,completely rewritten based on Facebook's [Folly](https://github.com/facebook/folly) implementation, new implementation audited for soundness
+- **Security bug fixed: [RUSTSEC-2019-0013](https://rustsec.org/advisories/RUSTSEC-2019-0013.html)**
+
+Done by: [64](https://github.com/64), [xacrimon](https://github.com/xacrimon)
