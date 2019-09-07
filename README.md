@@ -53,7 +53,7 @@ Our process is as follows:
 5) (Optional) If you have completely cleansed a crate of `unsafe`, add a
    `#![forbid(unsafe_code)]` attribute to its `src/lib.rs` or `main.rs`.
    After doing that, help others discover Safety Dance by adding a badge to
-   your README.md: ![Safety Dance](https://img.shields.io/badge/unsafe-forbidden-success.svg)
+   your README.md: ![unsafe forbidden](https://img.shields.io/badge/unsafe-forbidden-success.svg)
 
 Markdown code:
 
