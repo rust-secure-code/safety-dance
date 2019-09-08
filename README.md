@@ -58,7 +58,7 @@ Our process is as follows:
 Markdown code:
 
 ```
-[![Safety Dance](https://img.shields.io/badge/unsafe-forbidden-success.svg)](https://github.com/rust-secure-code/safety-dance/)
+[![unsafe forbidden](https://img.shields.io/badge/unsafe-forbidden-success.svg)](https://github.com/rust-secure-code/safety-dance/)
 ```
 
 ## 🏆 Trophy Case 🏆
