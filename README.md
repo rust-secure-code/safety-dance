@@ -82,7 +82,7 @@ A streaming compression/decompression library DEFLATE-based streams in Rust. Has
 
  - Unsafe blocks before: **21** (when using Rust backend)
  - Unsafe blocks after: **2** (when using Rust backend)
- - Switched to using [Rust backend](#miniz_oxide) by default
+ - Switched to using Rust backend by default (see [miniz_oxide](#miniz_oxide) below)
 
 Done by: [oyvindln](https://github.com/oyvindln/), [Shnatsel](https://github.com/Shnatsel/), [Alex Crichton](https://github.com/alexcrichton)
 
