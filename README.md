@@ -76,6 +76,16 @@ GIF image encoder/decoder written in Rust ([tracking issue](https://github.com/r
 
 Done by: [Shnatsel](https://github.com/Shnatsel/)
 
+### [flate2](https://crates.io/crates/flate2)
+
+A streaming compression/decompression library DEFLATE-based streams in Rust. Has C and Rust backends ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/32))
+
+ - Unsafe blocks before: **21** (when using Rust backend)
+ - Unsafe blocks after: **2** (when using Rust backend)
+ - Switched to using [Rust backend](#miniz_oxide) by default
+
+Done by: [oyvindln](https://github.com/oyvindln/), [Shnatsel](https://github.com/Shnatsel/), [Alex Crichton](https://github.com/alexcrichton)
+
 ### [image](https://crates.io/crates/image)
 
 Image operations and conversions to/from image formats ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/3))
