@@ -133,3 +133,14 @@ A spinlock for Rust ([tracking issue](https://github.com/rust-secure-code/safety
 Done by: [64](https://github.com/64), [xacrimon](https://github.com/xacrimon)
 
 `spin::Once` still needs to be audited for soundness, see [tracking issue](https://github.com/rust-secure-code/safety-dance/issues/18)
+
+## We need your help!
+
+You can help by:
+
+1. Nominating crates for auditing - we're looking for widely used crates with `unsafe` in them
+1. Auditing nominated crates for soundness
+1. Replacing unsafe code with safe code where possible (where not possible - documenting why)
+1. Inspecting crates that have been made safer and [requesting Clippy lints](https://github.com/rust-secure-code/safety-dance/issues/21) for the antipatterns discovered
+
+Check out what's in progress or pick up a work item on the [issue tracker](https://github.com/rust-secure-code/safety-dance/issues)!
