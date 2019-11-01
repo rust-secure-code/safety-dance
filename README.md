@@ -27,9 +27,12 @@ Our process is as follows:
     [cargo geiger](https://github.com/anderejd/cargo-geiger) command can also
     help here.
   * Once you know where the `unsafe` blocks are it gets harder: you have to
-    carefully determine if the `unsafe` is being used appropriately. If you
-    don't know that's okay, post the questionable block in a comment in the
-    tracking issue here  and someone else can have a look too, or ask in
+    carefully determine if the `unsafe` is being used appropriately. We've been
+    [requesting Clippy lints](https://github.com/rust-secure-code/safety-dance/issues/21)
+    for known antipatterns, so running `cargo +nighly clippy` is a good
+    starting point. If you don't know if a certain unsafe block is okay,
+    post the questionable block in a comment in the tracking issue here 
+    and someone else can have a look too, or ask in
     `#black-magic` on [Rust Community Discord](https://discord.gg/aVESxV8).
 3) When problems are found with an `unsafe` block we want to file bug reports in
    that crate's repo, send PRs with fixes if possible, and also write up
