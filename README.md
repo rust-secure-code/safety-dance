@@ -2,6 +2,14 @@
 
 <img src="https://raw.githubusercontent.com/rust-secure-code/safety-dance/master/img/safety-dance.png" width="320">
 
+
+## Before you start
+
+Safety is important part of our live.
+But some "extreme" improve our live and future.
+We are must understand - Nature make some experiments on us, some times too dangerous.
+Unsafe rust is field to extreme, and we are need this extream too.
+
 ## About
 
 This is a place for people to communicate about auditing `unsafe` code in core
