@@ -89,6 +89,14 @@ A streaming compression/decompression library DEFLATE-based streams in Rust. Has
 
 Done by: [oyvindln](https://github.com/oyvindln/), [Shnatsel](https://github.com/Shnatsel/), [Alex Crichton](https://github.com/alexcrichton)
 
+### [http](https://crates.io/crates/http)
+
+A general purpose library of common HTTP types ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/37))
+
+ - **Security bugs fixed: [RUSTSEC-2019-0033](https://rustsec.org/advisories/RUSTSEC-2019-0034.html), [RUSTSEC-2019-0034](https://rustsec.org/advisories/RUSTSEC-2019-0034.html)**
+ 
+Done by: [Qwaz](https://github.com/Qwaz), [Sean McArthur](https://github.com/seanmonstar)
+
 ### [image](https://crates.io/crates/image)
 
 Image operations and conversions to/from image formats ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/3))
@@ -123,6 +131,15 @@ The fastest DEFLATE compression/decompression library in Rust, backend for [flat
 
 Done by: [Shnatsel](https://github.com/Shnatsel/), [oyvindln](https://github.com/oyvindln/)
 
+### [qbsdiff](https://crates.io/crates/qbsdiff)
+
+Fast and memory saving bsdiff 4.x compatible delta compressor and patcher ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/55))
+
+ - Unsafe blocks before: **3**
+ - **100% safe code now**
+
+Done by: [Nicolas Braud-Santoni](https://github.com/nbraud)
+
 ### [spin](https://crates.io/crates/spin)
 
 A spinlock for Rust ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/18))
@@ -133,6 +150,15 @@ A spinlock for Rust ([tracking issue](https://github.com/rust-secure-code/safety
 Done by: [64](https://github.com/64), [xacrimon](https://github.com/xacrimon)
 
 `spin::Once` still needs to be audited for soundness, see [tracking issue](https://github.com/rust-secure-code/safety-dance/issues/18)
+
+### [suffix-array](https://crates.io/crates/suffix_array)
+
+Suffix array construction and searching algorithms for in-memory binary data ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/56))
+
+ - Unsafe blocks before: **2**
+ - **100% safe code now**
+
+Done by: [Nicolas Braud-Santoni](https://github.com/nbraud)
 
 ## We need your help!
 
