@@ -146,10 +146,9 @@ A spinlock for Rust ([tracking issue](https://github.com/rust-secure-code/safety
 
 - `spin::RwLock` found to be unsound,completely rewritten based on Facebook's [Folly](https://github.com/facebook/folly) implementation, new implementation audited for soundness
 - **Security bug fixed: [RUSTSEC-2019-0013](https://rustsec.org/advisories/RUSTSEC-2019-0013.html)**
+- Unsafe code in `spin::Once` audited and found sound as of version 0.5.2
 
-Done by: [64](https://github.com/64), [xacrimon](https://github.com/xacrimon)
-
-`spin::Once` still needs to be audited for soundness, see [tracking issue](https://github.com/rust-secure-code/safety-dance/issues/18)
+Done by: [Matt Taylor](https://github.com/64), [Acrimon](https://github.com/xacrimon)
 
 ### [suffix-array](https://crates.io/crates/suffix_array)
 
