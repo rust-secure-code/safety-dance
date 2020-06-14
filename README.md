@@ -93,7 +93,7 @@ Done by: [oyvindln](https://github.com/oyvindln/), [Shnatsel](https://github.com
 
 A general purpose library of common HTTP types ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/37))
 
- - **Security bugs fixed: [RUSTSEC-2019-0033](https://rustsec.org/advisories/RUSTSEC-2019-0034.html), [RUSTSEC-2019-0034](https://rustsec.org/advisories/RUSTSEC-2019-0034.html)**
+ - **Security bugs fixed: [RUSTSEC-2019-0033](https://rustsec.org/advisories/RUSTSEC-2019-0033.html), [RUSTSEC-2019-0034](https://rustsec.org/advisories/RUSTSEC-2019-0034.html)**
  
 Done by: [Qwaz](https://github.com/Qwaz), [Sean McArthur](https://github.com/seanmonstar)
 
