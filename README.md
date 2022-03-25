@@ -114,12 +114,10 @@ Done by: [fintelia](https://github.com/fintelia), [HeroicKatora](https://github.
 Popular DEFLATE compression/decompression library ([tracking issue](https://github.com/rust-secure-code/safety-dance/issues/1))
 
 - Unsafe blocks before: **16** (4 of them unsound)
-- Unsafe blocks after: **1** plus 2 more moved to shared crates
+- Unsafe blocks after: **0** plus 2 moved to shared crates
 - **Security bug fixed: [RUSTSEC-2019-0010](https://rustsec.org/advisories/RUSTSEC-2019-0010.html)**
 
-100% safety blockers: [rust-lang/rust#59229](https://github.com/rust-lang/rust/issues/59229), [rust-lang/rfcs#2714](https://github.com/rust-lang/rfcs/pull/2714)
-
-Done by: [DevQps](https://github.com/DevQps), [Shnatsel](https://github.com/Shnatsel/), [WanzenBug](https://github.com/WanzenBug/)
+Done by: [DevQps](https://github.com/DevQps), [Shnatsel](https://github.com/Shnatsel), [WanzenBug](https://github.com/WanzenBug), [mleonhard](https://github.com/mleonhard)
 
 ### [miniz_oxide](https://crates.io/crates/miniz_oxide)
 
